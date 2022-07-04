@@ -11,7 +11,7 @@ const Styles = StyleSheet.create({
     borderBottomWidth: 1,
     width: "100%",
     paddingHorizontal: 4,
-    fontSize:16
+    fontSize:16,
   },
   ctInput: {
     paddingHorizontal: 3,

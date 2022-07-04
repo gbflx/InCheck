@@ -6,11 +6,11 @@ import Styles from "./style";
 const TextBox = (props) => {
   return (
     <View style={Styles.container}>
-      <View style={Styles.ctInput}>
+      <View style={[Styles.ctInput, props.style]}>
         <Text style={Styles.Text} allowFontScaling={false}>{props.inputTitle}</Text>
-        <TextInput style={Styles.TextBox} keyboardType={'email-address'}/>
+        <TextInput secureTextEntry={props.secureTextEntry} style={Styles.TextBox} keyboardType={'email-address'} placeholder={props.inputTitle}/>
       </View>
-       <Button/>
+       
     </View>
   );
 };
