@@ -1,5 +1,6 @@
 import React from "react";
 import { View, TextInput, Text,  TouchableOpacity } from "react-native";
+import Button from "../Button";
 import Styles from "./style";
 
 const TextBox = (props) => {
@@ -7,9 +8,9 @@ const TextBox = (props) => {
     <View style={Styles.container}>
       <View style={Styles.ctInput}>
         <Text style={Styles.Text} allowFontScaling={false}>{props.inputTitle}</Text>
-        <TextInput style={Styles.TextBox} keyboardType={'url'}/>
+        <TextInput style={Styles.TextBox} keyboardType={'email-address'}/>
       </View>
-      <TouchableOpacity style={Styles.Btn}><Text style={Styles.Txt}>Entrar</Text></TouchableOpacity>
+       <Button/>
     </View>
   );
 };
