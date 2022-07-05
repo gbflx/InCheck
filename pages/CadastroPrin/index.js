@@ -20,10 +20,12 @@ export default function CadastroPrin(props) {
         <TextBox
           style={Styles.Password}
           inputTitle={"Senha"}
+          secureTextEntry={true}
         ></TextBox>
         <TextBox
           style={Styles.Confirm}
           inputTitle={"Confirmar Senha"}
+          secureTextEntry={true}
         ></TextBox>
         <Button inputTitle={"Cadastrar"} style={Styles.Btn} />
         <View style={Styles.Line}></View>
