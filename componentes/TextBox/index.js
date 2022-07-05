@@ -10,7 +10,6 @@ const TextBox = (props) => {
         <Text style={Styles.Text} allowFontScaling={false}>{props.inputTitle}</Text>
         <TextInput secureTextEntry={props.secureTextEntry} style={Styles.TextBox} keyboardType={'email-address'} placeholder={props.inputTitle}/>
       </View>
-       
     </View>
   );
 };

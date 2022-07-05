@@ -32,6 +32,15 @@ const Styles = StyleSheet.create({
   },
   Btn: {
       marginTop: 31,
+  },
+  confirm:{
+marginTop:30
+  },
+  Line:{
+    marginTop:47,
+    width:'90%',
+    borderBottomWidth:1,
+    borderColor:'#9D7DE8'
   }
 });
 
