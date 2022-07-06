@@ -9,9 +9,10 @@ const Styles = StyleSheet.create({
         },
         BtnGG: {
           backgroundColor: "#EA332F",
+          flexDirection: 'row',
           width: "70%",
           height: 50,
-          justifyContent: "center",
+          justifyContent: "flex-start",
           alignItems: "center",
           marginTop: 45,
           borderRadius: 10,
@@ -25,8 +26,8 @@ const Styles = StyleSheet.create({
         Icon:{
           color:'#FFF',
           fontSize:35,
-          flex:1,
-          justifyContent:'flex-start'
+          marginRight: '10%',
+          marginLeft: '10%'
         }
 })
 
