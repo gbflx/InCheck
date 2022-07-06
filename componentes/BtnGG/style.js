@@ -7,7 +7,7 @@ const Styles = StyleSheet.create({
           alignItems: "center",
           height:200
         },
-        BtnFB: {
+        BtnGG: {
           backgroundColor: "#EA332F",
           width: "70%",
           height: 50,
@@ -22,6 +22,12 @@ const Styles = StyleSheet.create({
           fontSize: 18,
           fontWeight: "bold",
         },
+        Icon:{
+          color:'#FFF',
+          fontSize:35,
+          flex:1,
+          justifyContent:'flex-start'
+        }
 })
 
 export default Styles;

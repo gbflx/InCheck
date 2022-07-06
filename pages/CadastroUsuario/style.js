@@ -11,7 +11,7 @@ const Styles = StyleSheet.create({
      display:'flex', 
     marginTop: 22,
     fontSize:30,
-    width:150,
+    width:'50%',
     textAlign:'center',
     fontWeight:'bold',
     color:'#3A2766'
