@@ -6,7 +6,7 @@ import Button from "../../componentes/Button";
 import BtnFB from "../../componentes/BtnFB";
 import BtnGG from "../../componentes/BtnGG";
 
-export default function CadastroPrin(props) {
+export default function CadastroPrin(props, navigation) {
   return (
     <ScrollView>
       <View style={Styles.container}>
@@ -27,7 +27,7 @@ export default function CadastroPrin(props) {
           inputTitle={"Confirmar Senha"}
           secureTextEntry={true}
         ></TextBox>
-        <Button inputTitle={"Cadastrar"} style={Styles.Btn} />
+        <Button inputTitle={"Cadastrar"} style={Styles.Btn}/>
         <View style={Styles.Line}></View>
         <BtnFB />
         <BtnGG />

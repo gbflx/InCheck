@@ -7,12 +7,13 @@ const Styles = StyleSheet.create({
   },
   BtnFB: {
     backgroundColor: "#1876F4",
-    width: "70%",
-    height: 50,
-    justifyContent: "center",
-    alignItems: "center",
-    marginTop: 45,
-    borderRadius: 10,
+          flexDirection: 'row',
+          width: "70%",
+          height: 50,
+          justifyContent: "flex-start",
+          alignItems: "center",
+          marginTop: 45,
+          borderRadius: 10,
   },
 
   Text: {
@@ -20,6 +21,12 @@ const Styles = StyleSheet.create({
     fontSize: 18,
     fontWeight: "bold",
   },
+  Icon:{
+    color:'#FFF',
+    fontSize:35,
+     marginRight: '10%',
+     marginLeft: '10%'
+  }
 });
 
 export default Styles;

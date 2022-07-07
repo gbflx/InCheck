@@ -21,7 +21,8 @@ const Styles = StyleSheet.create({
         width:210,
         resizeMode:'contain',
         marginTop:StatusBar.currentHeight + 60
-    }
+    },
+
 })
 
 export default Styles;

@@ -10,7 +10,6 @@ export default function BtnGG() {
         <Icon name="google" style={Styles.Icon} />
         <Text style={Styles.Text}>Entrar com Google</Text>
       </TouchableOpacity>
-      <View></View>
     </View>
   );
 }
