@@ -7,6 +7,12 @@ import BtnFB from "../../componentes/BtnFB";
 import BtnGG from "../../componentes/BtnGG";
 
 export default function CadastroPrin(props, navigation) {
+
+  const navegar = () => {
+    navigation.navigate('CadastroPrin')
+  }
+
+  
   return (
     <ScrollView>
       <View style={Styles.container}>
@@ -27,7 +33,7 @@ export default function CadastroPrin(props, navigation) {
           inputTitle={"Confirmar Senha"}
           secureTextEntry={true}
         ></TextBox>
-        <Button inputTitle={"Cadastrar"} style={Styles.Btn} onPress={function (){ navigation.navigate('CadastroPrin') }}/>
+        <Button inputTitle={"Cadastrar"} style={Styles.Btn} onPress={navegar.bind(this)}/>
         <View style={Styles.Line}></View>
         <BtnFB />
         <BtnGG />
