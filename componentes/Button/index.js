@@ -9,7 +9,9 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 export default function Button({ navigation, inputTitle }) {
   return (
     <View style={Styles.container}>
-      <TouchableOpacity style={Styles.Btn} onPress={() => navigation.navigate('CadastroPrin')}>
+      <TouchableOpacity style={Styles.Btn} onPress={() => {
+        props.onPress();
+      }}>
         <Text style={Styles.Txt}>{inputTitle}</Text>
       </TouchableOpacity>
     </View>
