@@ -5,6 +5,7 @@ const Styles = StyleSheet.create({
     width: "100%",
     alignItems: "center",
     justifyContent: "center",
+    
   },
   TextBox: {
     borderBottomColor: "#8257E5",

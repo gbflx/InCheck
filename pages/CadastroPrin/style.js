@@ -38,7 +38,7 @@ marginTop:30
   },
   Line:{
     marginTop:47,
-    width:'90%',
+    width:'100%',
     borderBottomWidth:1,
     borderColor:'#9D7DE8'
   }

@@ -28,7 +28,12 @@ export default function App() {
           headerTransparent:true,
           headerShown:false
          }}/>
-         <Stack.Screen name="Login" component={TelaLogin}>
+         <Stack.Screen name="Login" component={TelaLogin}
+         options={{
+          title: '',
+          headerTransparent:true,
+          headerShown:false
+         }}>
 
          </Stack.Screen>
       </Stack.Navigator>

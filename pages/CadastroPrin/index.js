@@ -9,7 +9,7 @@ import BtnGG from "../../componentes/BtnGG";
 export default function CadastroPrin(props, navigation) {
 
   const navegar = () => {
-    navigation.navigate('CadastroPrin')
+    props.navigation.navigate('Login')
   }
 
   
@@ -20,7 +20,7 @@ export default function CadastroPrin(props, navigation) {
           source={require("../../assets/imgs/logo.png")}
           style={Styles.img}
         />
-        <Text style={Styles.TXT}>Cadastro</Text>
+        <Text style={Styles.TXT}>CADASTRO</Text>
         <TextBox style={Styles.BoxName} inputTitle={"Nome"}></TextBox>
         <TextBox style={Styles.BoxMail} inputTitle={"E-mail"}></TextBox>
         <TextBox
