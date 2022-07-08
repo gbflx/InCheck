@@ -27,18 +27,21 @@ const Styles = StyleSheet.create({
   BoxMail: {
     marginTop: 30,
   },
-  password: {
-    marginTop: 30,
+  Password: {
+    marginTop:30,
   },
   Btn: {
-      marginTop: 31,
+      marginTop: 30,
   },
-  confirm:{
+  BtnGG:{
+ marginTop:30
+  },
+  Confirm:{
 marginTop:30
   },
   Line:{
     marginTop:47,
-    width:'100%',
+    width:'90%',
     borderBottomWidth:1,
     borderColor:'#9D7DE8'
   }

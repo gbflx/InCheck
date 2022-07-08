@@ -22,6 +22,9 @@ const Styles = StyleSheet.create({
         resizeMode:'contain',
         marginTop:StatusBar.currentHeight + 60
     },
+    BoxMail:{
+        marginTop:26,
+    }
 
 })
 

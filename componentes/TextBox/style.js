@@ -17,7 +17,6 @@ const Styles = StyleSheet.create({
   ctInput: {
     paddingHorizontal: 3,
     paddingVertical: 15,
-    marginTop: 26,
     height: 49,
     borderRadius: 10,
     backgroundColor: "#fff",

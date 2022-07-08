@@ -4,7 +4,7 @@ const Styles = StyleSheet.create({
   container: {
     width: "100%",
     alignItems: "center",
-    height: 200,              
+                
   },
   BtnGG: {
     backgroundColor: "#EA332F",
@@ -13,7 +13,7 @@ const Styles = StyleSheet.create({
     height: 50,
     justifyContent: "flex-start",
     alignItems: "center",
-    marginTop: 45,
+    marginTop:20,
     borderRadius: 10,
   },
 

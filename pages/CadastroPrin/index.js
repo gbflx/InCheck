@@ -35,8 +35,8 @@ export default function CadastroPrin(props, navigation) {
         ></TextBox>
         <Button inputTitle={"Cadastrar"} style={Styles.Btn} onPress={navegar.bind(this)}/>
         <View style={Styles.Line}></View>
-        <BtnFB />
-        <BtnGG />
+        <BtnFB style={Styles.BtnFB}/>
+        <BtnGG style={Styles.BtnGG}/>
       </View>
     </ScrollView>
   );

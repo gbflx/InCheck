@@ -12,7 +12,7 @@ const Styles = StyleSheet.create({
           height: 50,
           justifyContent: "flex-start",
           alignItems: "center",
-          marginTop: 45,
+          marginTop: 35,
           borderRadius: 10,
   },
 

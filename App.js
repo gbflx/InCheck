@@ -3,6 +3,7 @@ import { StyleSheet, Text, View } from "react-native";
 import CadastroUsuario from "./pages/CadastroUsuario";
 import CadastroPrin from "./pages/CadastroPrin";
 import TelaLogin from "./pages/TelaLogin";
+import TelaInicial from "./pages/TelaInicial";
 
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
@@ -33,9 +34,13 @@ export default function App() {
           title: '',
           headerTransparent:true,
           headerShown:false
-         }}>
-
-         </Stack.Screen>
+         }}/>
+         <Stack.Screen name="Inicio" component={TelaInicial}
+         options={{
+           title: '',
+           headerTransparent:true,
+           headerShown:false
+         }}/>
       </Stack.Navigator>
     </NavigationContainer>
   );

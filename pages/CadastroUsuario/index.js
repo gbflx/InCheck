@@ -15,7 +15,7 @@ export default function CadastroUsuario({ navigation }) {
         source={require("../../assets/imgs/logo.png")}
       />
       <Text style={Styles.title}>Recuperar Senha</Text>
-      <TextBox inputTitle={"E-mail"} />
+      <TextBox inputTitle={"E-mail"} style={Styles.BoxMail}/>
       <Button navigation={navigation} inputTitle={"Entrar"} onPress={navegar.bind(this)}/>
       <View></View>
     </View>

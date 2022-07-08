@@ -21,10 +21,10 @@ TXT:{
  marginTop:44
 },
 BoxMail:{
- marginTop:40,
+ marginTop:30,
 },
 password:{
-marginTop:35
+marginTop:30
 },
 BTN:{
   marginTop:45
@@ -36,9 +36,7 @@ Line:{
     borderColor:'#9D7DE8'
   
 },
-BtnGG:{
-    marginTop:20
-}
+
 
 })
 
