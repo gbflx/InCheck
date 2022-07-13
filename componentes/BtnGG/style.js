@@ -4,6 +4,7 @@ const Styles = StyleSheet.create({
   container: {
     width: "100%",
     alignItems: "center",
+    height:150
                 
   },
   BtnGG: {

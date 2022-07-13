@@ -5,7 +5,7 @@ import Styles from "./style";
 import Button from "../../componentes/Button";
 import BtnFB from "../../componentes/BtnFB";
 import BtnGG from "../../componentes/BtnGG";
-import { useLinkProps } from "@react-navigation/native";
+
 
 
 export default function TelaLogin(props, navigation) {
