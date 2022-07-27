@@ -39,7 +39,8 @@ elevation: 6,
     borderWidth:1,
     borderRadius:12,
     marginLeft:180, 
-  }
+  },
+ 
 });
 
 export default Styles;
